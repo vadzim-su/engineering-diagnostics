@@ -110,7 +110,8 @@ body ::-webkit-scrollbar-thumb:hover {
     font-family: "Gilroy";
     font-weight: 800;
     padding: 25px 0;
-    margin-top: 12px; }
+    margin-top: 12px;
+    cursor: pointer; }
     .header__button::before {
       display: inline-block;
       content: url(../../images/download.svg);
@@ -275,7 +276,8 @@ body ::-webkit-scrollbar-thumb:hover {
     -webkit-transform-origin: right top;
     transform-origin: right top;
     padding: 320px 0 0 46px;
-    direction: rtl; }
+    direction: rtl;
+    cursor: pointer; }
   .services__item {
     box-sizing: border-box;
     -webkit-transform: rotate(90deg);
